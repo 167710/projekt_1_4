@@ -4,10 +4,10 @@ class Main {
   public static void main(String[] args) {
 
      Scanner scan = new Scanner(System.in);
-    System.out.println("Podaj liczbe: ");
+    System.out.println("Prosze podac liczbe: ");
     System.out.println("1.liczba do potegi A do B");
     System.out.println("2.suma pierwiastkow");
-    System.out.println("3.max");
+    System.out.println("3.maksimum");
     System.out.println("4.iloraz bez dzielenia przez 0");
     int liczba = scan.nextInt();
     double A = scan.nextInt();
@@ -26,7 +26,7 @@ class Main {
         double D=AA+BB;
         System.out.println(D);
         break;
-      case 3
+      case 3:
         if(A>B){
           System.out.println(A);
         }
